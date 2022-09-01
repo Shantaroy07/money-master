@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="font-bold text-5xl text-center text-indigo-300">Money Manager </h1>
+
+    </header>
+    <main>
+        <div class="flex">
+            <div class="w-9/12 mt-10 ml-5 mr-5">
+                <img class=" " src="image.jpg" alt="">
+            </div>
+            <div class="container w-9/12 mx-auto mt-10 mr-10 ">
+                <div>
+                    <h1 class="font-semibold text-2xl text-center my-3">Income</h1>
+                    <div class="flex">
+                        <h3 class="font-normal text-xl mr-3 ">Income:</h3>
+                        <input class="border-2" type="text" name="" id="income-field">
+                    </div>
+                </div>
+                <div>
+                    <h1 class="font-semibold text-2xl text-center my-3">Expenses</h1>
+                    <div class="flex my-3">
+                        <h3 class="font-normal text-xl mr-7 ">Food:</h3>
+                        <input class=" border-2" type="text" name="" id="food-field">
+                    </div>
+                    <div class="flex my-3 ">
+                        <h3 class="font-normal text-xl mr-8 ">Rent:</h3>
+                        <input class=" border-2" type="text" name="" id="rent-field">
+                    </div>
+                    <div class="flex my-3">
+                        <h3 class="font-normal text-xl mr-3 ">Clothes:</h3>
+                        <input class=" border-2" type="text" name="" id="clothes-field">
+                    </div>
+                </div>
+                <button id="calc-btn"
+                    class="font-medium text-lg bg-blue-400 text-white px-3 py-2 rounded-lg my-2">Calculate</button>
+                <h2 class="font-medium text-2xl">Toatl Expenses: $<span id="total-expenses">00</span></h2>
+                <h3 class="font-medium text-2xl">Balance: $<span id="balance">00</span></h3>
+
+                <div>
+                    <div class="flex my-4">
+                        <h3 class="font-normal text-xl mr-5 pt-3  ">Save:</h3>
+                        <input class=" border-2 w-1/3" type="text" name="" id="save-field">
+                        <h3 class="font-normal text-xl mr-8 pl-5 pt-3">%</h3>
+                        <button id="save-btn"
+                            class="font-medium text-lg bg-blue-400 text-white px-3 py-2 rounded-lg my-2">Save</button>
+                    </div>
+
+                </div>
+                <div class="my-3">
+                    <h2 class="font-medium text-2xl">Saving Amount: $<span id="save-amount">00</span></h2>
+                    <h3 class="font-medium text-2xl">Remaining Balance: $<span id="remaining-balance">00</span></h3>
+
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="JS/utilities.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
